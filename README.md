@@ -2,9 +2,9 @@
 
 Webhostmost新账户目前仅支持Node.js本地环境编辑或者上传文件方式搭建
 
-Webhostmost老账户可使用专用一键脚本(无交互)，也可以Node.js本地环境编辑文件方式搭建
+Webhostmost老账户建议使用Node.js本地环境编辑文件方式搭建
 
-Webhostmost老账户专用脚本如下：
+Webhostmost老账户专用脚本如下（官方已限制curl与wget依赖，已不可用）：
 
 1、UUID=你的uuid PORT=服务器可使用的端口 都是非必填，自动随机，但DOMAIN=已解析在CF的域名 是必填的
 
