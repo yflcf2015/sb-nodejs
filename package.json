@@ -1,10 +1,10 @@
 {
-  "name": "vl-nodejs",
+  "name": "sb-nodejs",
   "version": "1.0.0",
   "description": "Node.js Server",
   "main": "app.js",
-  "author": "",
-  "repository": "",
+  "author": "eooce",
+  "repository": "eooce",
   "license": "MIT",
   "private": false,
   "scripts": {
