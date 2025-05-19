@@ -14,7 +14,7 @@ wget -N https://raw.githubusercontent.com/yonggekkk/sb-nodejs/main/whm.sh && UUI
 
 Webhostmost新/老账户，建议使用外部节点保活方式，可使用workers_keep文件进行保活
 
-保活及节点信息地址：https://你已解析在CF的域名/你的uuid
+节点保活及节点信息地址：https://你已解析在CF的域名/你的uuid
 
 请注意：Webhostmost免费账户需要每45天登录一次网页界面，过期会删除数据，请留意
 
