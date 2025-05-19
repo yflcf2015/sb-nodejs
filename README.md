@@ -51,6 +51,6 @@ wget -N https://raw.githubusercontent.com/yonggekkk/sb-nodejs/main/app.js && UUI
 
 ----------------------------------------------------------
 ### 感谢你右上角的star🌟
-[![Stargazers over time](https://starchart.cc/yonggekkk/vless-nodejs.svg)](https://starchart.cc/yonggekkk/vless-nodejs)
+[![Stargazers over time](https://starchart.cc/yonggekkk/sb-nodejs.svg)](https://starchart.cc/yonggekkk/sb-nodejs)
 
 ### 声明：所有代码来源于Github社区与ChatGPT的整合 [eooce](https://github.com/eooce/node-ws)
