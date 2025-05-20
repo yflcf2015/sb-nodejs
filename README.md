@@ -2,15 +2,17 @@
 
 Webhostmost新账户目前仅支持Node.js本地环境编辑或者上传文件方式搭建
 
-Webhostmost老账户建议使用Node.js本地环境编辑文件方式搭建，官方已限制curl与wget依赖，目前脚本已不可用
+Webhostmost老账户建议使用Node.js本地环境编辑文件方式搭建，官方已限制curl与wget依赖，目前以下脚本已不可用
 
-1、UUID=你的uuid PORT=服务器可使用的端口 都是非必填，自动随机，但DOMAIN=已解析在CF的域名 是必填的
-
-2、快捷方式```bash ndjs.sh```，如果想变更uuid、端口、服务器域名，可将变量放在快捷方式前面快速执行
 
 ```
 wget -N https://raw.githubusercontent.com/yonggekkk/sb-nodejs/main/whm.sh && UUID=你的uuid PORT=服务器可使用的端口 DOMAIN=已解析在CF的域名 bash whm.sh
 ```
+
+
+如果觉得文件编辑变量不方便或者不安全，也可以在Node.js界面下添加或者修改变量
+
+![image](https://github.com/user-attachments/assets/6d317d44-605a-4c7d-af35-453fc4aeea51)
 
 Webhostmost新/老账户，建议使用外部节点保活方式，可使用workers_keep文件进行保活
 
