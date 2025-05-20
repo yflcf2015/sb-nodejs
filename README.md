@@ -10,7 +10,13 @@ wget -N https://raw.githubusercontent.com/yonggekkk/sb-nodejs/main/whm.sh && UUI
 ```
 
 
-如果觉得文件编辑变量不方便或者不安全，也可以在Node.js界面下添加或者修改变量
+原教程直接在文件编辑变量可能存在不方便或者不安全的问题，建议在Node.js界面下添加或者修改变量
+
+UUID：你的uuid
+
+PORT：服务器可使用的端口
+
+DOMAIN：已解析在CF的域名
 
 ![image](https://github.com/user-attachments/assets/6d317d44-605a-4c7d-af35-453fc4aeea51)
 
