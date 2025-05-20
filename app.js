@@ -26,7 +26,7 @@ console.log("甬哥Github项目  ：github.com/yonggekkk");
 console.log("甬哥Blogger博客 ：ygkkk.blogspot.com");
 console.log("甬哥YouTube频道 ：www.youtube.com/@ygkkk");
 console.log("Nodejs真一键无交互Vless代理脚本");
-console.log("当前版本：25.5.13 测试beta2版");
+console.log("当前版本：25.5.20 测试beta3版");
 console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 async function getVariableValue(variableName, defaultValue) {
     const envValue = process.env[variableName];
@@ -50,13 +50,13 @@ function ask(question) {
     return new Promise(resolve => rl.question(question, ans => { rl.close(); resolve(ans.trim()); }));
 }
 async function main() {
-    const UUID = await getVariableValue('UUID', '');
+    const UUID = await getVariableValue('UUID', ''); // 为保证安全，建议留空，可在Node.js界面下的环境变量添加处（Environment variables）,点击ADD VARIABLE，修改变量
     console.log('你的UUID:', UUID);
 
-    const PORT = await getVariableValue('PORT', '');
+    const PORT = await getVariableValue('PORT', '');// 为保证安全，建议留空，可在Node.js界面下的环境变量添加处（Environment variables）,点击ADD VARIABLE，修改变量
     console.log('你的端口:', PORT);
 
-    const DOMAIN = await getVariableValue('DOMAIN', '');
+    const DOMAIN = await getVariableValue('DOMAIN', '');// 为保证安全，建议留空，可在Node.js界面下的环境变量添加处（Environment variables）,点击ADD VARIABLE，修改变量
     console.log('你的域名:', DOMAIN);
 
     const httpServer = http.createServer((req, res) => {
