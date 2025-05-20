@@ -10,7 +10,7 @@ wget -N https://raw.githubusercontent.com/yonggekkk/sb-nodejs/main/whm.sh && UUI
 ```
 
 
-原教程直接在文件编辑变量可能存在不方便或者不安全的问题，建议在Node.js界面下添加或者修改变量
+原教程直接用app.js文件编辑变量可能存在不方便或者不安全的问题，建议在Node.js界面下添加或者修改变量
 
 UUID：你的uuid
 
